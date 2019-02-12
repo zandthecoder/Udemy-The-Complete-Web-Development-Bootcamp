@@ -1,0 +1,25 @@
+body {
+  background-color: #23a393;
+  color: #ffc0c2;
+  font-family: 'Space Mono', monospace;
+}
+
+hr {
+  /* background-color: white; */
+  /* height: 10px; */
+  border-color: white;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 5%;
+
+
+}
+
+h1,h3 {
+  color: #61d5c3;
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  border-radius: 20%;
+}
