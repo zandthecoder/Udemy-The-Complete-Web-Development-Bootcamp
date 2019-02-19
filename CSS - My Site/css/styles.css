@@ -1,36 +1,121 @@
 body {
   margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 5.625rem;
+  margin: 25px auto 0 auto;
+}
+
+h2 {
+  color: #1e836c;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #61d5c3;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #61d5c3;
+}
+
+p {
+  font-family: 'Fredericka the Great', cursive;
+  line-height: 2;
+}
+
+hr {
+  border-color: #eaf6f6;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width: 5%;
+}
+
+.default-color {
+  color: antiquewhite;
+}
+
+.normal-weight {
+  font-weight: normal;
 }
 
 .top-container {
   background-color: #23a393;
   color: antiquewhite;
+  /* line-height: 2; */
+  padding-top: 100px;
+  position: relative;
 }
 
 .middle-container {
-  background-color: red;
-  height: 200px;
-  width: 200px;
+  margin: 50px auto auto auto;
 }
 
 .bottom-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
+  background-color: #1e836c;
+padding-top: 40px;
 }
 
-h1 {
-  font-family: 'Josefin Slab', serif;
-  margin: 0;
+.contact-me{
+  margin: auto auto 50px auto;
+}
+.btn {
+  /* -webkit-border-radius: 10; */
+  /* -moz-border-radius: 10; */
+  background: #61d5c3;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
-p {
-  font-family: 'Fredericka the Great', cursive;
+.btn:hover {
+  background: #1e836c;
+  text-decoration: none;
 }
 
-hr {
-  border-color: white;
-  border-style: dotted none none none;
-  border-width: 5px;
-  width: 5%;
+.top-cloud {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+
+.bottom-cloud {
+  bottom: 45%;
+  left: 10%;
+  position: absolute;
+}
+
+.profilepic {
+  border-radius: 50%;
+  width: 120px;
+}
+
+.skill-img-left {
+  float: left;
+  margin-right: 30px;
+  width: 24.75%;
+}
+
+.skill-img-right {
+  float: right;
+  margin-left: 30px;
+  width: 24.75%;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align:justify;
+  width: 50%;
+}
+
+.test {
+  width: 25%;
 }
