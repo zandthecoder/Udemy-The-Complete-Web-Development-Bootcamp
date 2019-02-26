@@ -23,7 +23,7 @@ h3 {
   padding: 5%;
 }
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .navbar {
@@ -50,6 +50,8 @@ font-weight: bold;
 }
 
 .title-image{
+  position: absolute;
+  right: 30%;
   transform: rotate(25deg);
   width: 60%;
 
@@ -88,9 +90,19 @@ font-weight: bold;
 .carousel-item {
   padding: 7% 15%;
 }
+
+.pricing-column{
+  padding: 3% 2% 2%;
+}
 #title {
   background-color: #ff4c68;
   color: #fff;
+}
+
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 #testimonials{
@@ -102,5 +114,10 @@ font-weight: bold;
 #press{
   background-color: #ef8172;
   padding-bottom: 3%;
+  text-align: center;
+}
+
+#pricing{
+  padding: 100px;
   text-align: center;
 }
